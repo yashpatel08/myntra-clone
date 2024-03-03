@@ -1,0 +1,39 @@
+.fav-empty{
+   text-align: center;
+   margin-top: 10%;
+}
+
+.favourites ul{
+    list-style: none;
+}
+
+.fav{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    gap: 20px;
+    width: 170vh;
+}
+
+.favo{
+    background-color: gainsboro;
+    width: 38vh;
+    border-radius: 4px;
+}
+
+.fav-img{
+  
+  height: 20vh;
+  width: 25vh;
+  cursor: pointer;
+}
+
+.fav-detail{
+   text-align: center;
+   height: 36vh;
+  
+}
+.fav-title{
+    margin-left: 20vh;
+    letter-spacing: 2px;
+}

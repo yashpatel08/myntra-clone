@@ -1,0 +1,153 @@
+.register{
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  width: 50%;
+}
+
+.register-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+}
+
+.register-title{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(118, 118, 207);
+}
+
+input {
+    border: 1px solid rgb(172, 172, 172);
+    margin-bottom: 1vh;
+}
+
+input :active{
+    border: 1px solid rgb(129, 129, 199);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
+    text-align: center;
+    
+}
+.login-btn{
+    margin: 2vh;
+   border: 1px solid; 
+    background-color: white;  
+    border-radius: 4px;  
+    cursor: pointer;
+    height: 4vh;
+
+}
+.register-btn{
+    margin: 2vh;
+    border: 1px solid;
+    background-color: rgb(179, 179, 226);
+    border-radius: 4px;
+    cursor: pointer;
+    height: 4vh;
+}
+
+
+input[type=text]:focus {
+    outline: 2px solid rgb(118, 111, 182);
+}
+
+label{
+    margin-bottom: 3px;
+}
+
+
+/* LOGIN CSS  */
+
+.Login {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    width: 50%;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+}
+
+.login-title {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(118, 118, 207);
+}
+
+.login-button {
+    margin: 2vh;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(179, 179, 226);
+    height: 4vh;
+}
+
+.register-button {
+    margin: 2vh;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    height: 4vh;
+}
+
+input {
+    height: 3vh;
+}
+
+input[type=text]:focus {
+    outline: 2px solid rgb(118, 111, 182);
+}
+
+
+/* ********************************************************************** */
+/* this is the profile css */
+
+.profile{
+    background-color: white;
+    border: 1px solid black;
+    width: 10vh;
+    height: 4vh;
+    margin: 2vh;    
+    border-radius: 3px;
+}
+
+.profile-btns{
+    margin: 2vh;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+.user-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.all-userDetail p{
+
+    margin: 2vh;
+
+}
+
+.user-detail{
+    margin-top: 4vh;
+}
+
+.profile:hover{
+    background-color: rgb(215, 121, 121);
+}

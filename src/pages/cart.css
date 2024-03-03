@@ -1,0 +1,126 @@
+.total-price{
+    margin-left: 5vh;
+}
+
+.pay-btn{
+    background-color: white;
+    border: none;
+    height: 3vh;
+    border-radius: 1vh;
+    width: 15vh;
+    margin: 2vh;
+}
+.cprice{
+    width: 35%;
+}
+.quantity{
+    width: 35%;
+}
+.pay-btn:hover{
+    background-color: rgb(255, 109, 109);
+    border-radius: 1vh ;
+    height: 3vh;
+    border: none;
+    margin: 2vh;
+}
+
+.pay-btn.selected {
+    background-color: rgb(255, 109, 109);
+}
+
+.checkout-section{
+    background-color: rgb(203, 197, 197);
+    width: 170vh;
+    border-radius: 2vh;
+}
+
+.flex{
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.payment-section{
+    margin-left: 5vh;
+    width: 12vh;
+  
+}
+/* 
+.product{
+    border: 1px solid black;
+} */
+        
+.cart-items{
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(5, 1fr); */
+    gap: 20px; 
+}
+
+.product-container {
+    flex: 0 1 calc(25% - 30px); 
+    /* display: grid; */
+    /* grid-template-columns: repeat(5, 1fr); */
+    margin-bottom: 20px;
+}
+
+.cproduct{
+    border: 1px solid #ccc;
+    width: 35vh;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cproduct .cprice {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.cproduct .quantity {
+    margin-bottom: 5px;
+}
+.cproduct .description {
+    margin-bottom: 5px;
+}
+
+.cproduct .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cproduct button {
+    margin-top: 2vh;
+}
+
+.cart-items{
+    margin-top: 1vh;
+    margin-left: 4vh;
+}
+
+.cart-rem{
+    background-color: #4caf50; 
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.cart-rem:hover {
+  background-color: #3b883f; /* Darker Green */
+}
+
+.cart-rem:active {
+  background-color: #2d6a2f; /* Dark Green */
+}
