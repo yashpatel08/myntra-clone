@@ -12,6 +12,12 @@ This project is a clone of the popular fashion eCommerce website Myntra. It repl
 - Order Management: View order history and manage orders.
 - User Profile: Update user information, view order history, and manage account settings.
 - Responsive Design: Enjoy a seamless shopping experience across various devices, thanks to the responsive design.
+
+## Demo
+Check out the demo of Fashion4You 
+
+https://github.com/yashpatel08/myntra-clone/assets/94280370/e3cd7067-bf0f-4e99-9a61-875f2ecac350
+
 ## Tech Stack
 Fashion4You utilizes the following technologies:
 
